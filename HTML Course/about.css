@@ -1,0 +1,21 @@
+html {
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #255;
+    color: whitesmoke;
+}
+
+a {
+    color: burlywood;
+}
+
+a:visited {
+    color: lightseagreen;
+}
+
+a:hover, a:active {
+    color: #eee;
+}

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="eu">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Samy Wanas">
+        <meta name="description" content="This page contains all the things I am learning how to create as I learn HTML">
+        <title>The Beginnings</title>
+        <link rel="icon" href="html5.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+
+<!-- The head of the page, contains metadata as show by the meta tag. For example the doctype which is html, the language, the character set we're using, a description and links to the icon and stylesheet for the page-->
+<!-- below is the main body of the page, contains elements such as the header, paragraphcs, lists, tables, images, captions, and semantic tags such as article and section, and defining tags for screenreaders-->
+<!-- Entities such as &nbsp are used. We also have line breaks (br), horizontal rules (hr) -->
+<!-- also some examples of different ways we can do the same things, such as ID's instead of scope-->
+<!-- finally I'm adding forms & inputs then I can begin learning css then js-->
+
+
+    <body>
+        <header>
+        <h1>Hello World! As usual</h1>
+        
+        
+
+        <nav aria-label= "primary-navigation"> 
+            <ul>
+                <li><a href="#plan">What Im doing</a></li>
+                <li><a href="#places">How I'm doing it</a></li>
+                <li><a href="#links">Helpful Links</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    
+<main>
+        <article id="plan">
+        <h2>I'm ready to learn!</h2>
+        <p>This is a website. (I think)</p>
+        <section>
+                <h3>My Learning</h3>
+        <img src="img/kitter.jpg" alt="hehehaw" title="dog" width="264" height="191">
+        <figure>
+            <figcaption>This an example of how figures aren't only used for images</figcaption>
+            <p>
+                <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            </p>
+        </figure>
+    </section>
+    <section>
+        <h3>The plan</h3>
+        <p>Let me tell you how: </p>
+            <ol>
+            <li>I learn to program in a variety of useful languages</li>
+            <li>I revise and build projects in these. I do some important leetcode & other courses.</li>
+            <li>I revise Maths from GCSE, A-Level and beyond, Comp Sci from A-Level and beyond and continue leetcoding to keep the fundamentals fresh.</li>
+        </ol>
+            <ul>
+            <li>I'm planning to start a coding club at my university. Open to anyone, hopefully I can share resources to help people break into coding, collaborate with other coders on projects and host hackathons and other events.</li>
+            <li>I'm aiming to do a placement after my second year, then persue a masters after I graduate. I'm going to work hard for a first with honors!</li>
+        </ul>
+            <p>&nbsp;<abbr title="My Github Projects"><a href="https://github.com/nuckypuck">[Projects]</a></abbr></p>
+                
+
+       <aside>
+        <details>
+            <summary>Guess my favourite <mark>games</mark></summary>
+            <p>If you guesssed any from, Titanfall 2, Mirrors Edge, Dying Light, Gmod, Sekiro, Zomboid, Helldivers, BeamNG, Vtol Vr, then congrats! Effective from <time datetime="10:48">10:48am</time>, 19/05/24, I've got <time datetime="PT667H">667 Hours</time> in gmod.</p>
+        </details>
+       </aside>
+       <br>
+       
+       <table>
+        <caption>My Daily Schedule</caption>
+        <thead>
+        <tr>
+            <th>&nbsp;</th>
+            <th scope="col">Time</th>
+            <th scope="col">Activity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Morning</th>
+            <td><time datetime="08:00">8am</time>-<time datetime="12:00">12pm</time>
+            </td>
+            <td>Learn Code</td>
+            </tr>
+            <tr>
+                <th scope="row">Break</th>
+                <td><time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                </td>
+                <td>Eat Lunch</td>
+                </tr>
+                <tr>
+                    <th scope="row">Afternoon</th>
+                    <td><time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+                    </td>
+                    <td>Continue Learning Code</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Evening</th>
+                        <td rowspan="2">All Other Times</td>
+                        <td>Free Time</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Night</th>
+                        <td>Sleep</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">My free time is games, social stuff and generally relaxing.</td>
+                    </tr>
+                </tfoot>
+
+                
+       </table>
+    </section>
+    </article>  
+            
+
+    <br><br><br>
+
+        <hr>
+        <article id="places">
+        <h2>I'm spreading this across the next 3 years</h2>
+        <p>And very hopefully managing to get a <em>placement</em></p>
+        <p>I do want to travel the world, I can work remotely whilst traveling.</p>
+        
+        <section>
+        <h3>In my free time I'd</h3>
+        <ul>
+        <li><p>Stream all the games I enjoy</p></li>
+        <li><p>Run the buisnesses I have planned and manage my investments</p></li>
+        <li><p>Learn cool new things</p></li>
+        </ul>   
+        <address>Can't Dox Myself Rd<br>
+                Specific Ocean<br>
+                010 010
+            </address>
+            <br>
+            <figure>
+            <img src="img/Untitled.jpg" alt="run!!!" title="ruh oh..." width="237" height="213">
+            <figcaption>sob emogji</figcaption>
+            </figure>
+
+        <p><em>Try not to visit</em></p>
+    </section>
+    
+
+    
+        <section>
+        <h3>Places I'd like to avoid</h3>
+
+        <dl>
+            <dt>Bad Place</dt>
+            <dd>Apparently Bad?                  
+            </dd>
+
+            <dt><br>Bottomless pit</dt>
+            <dd>Gets boring</dd> 
+
+            <dt><br>Pit of lava</dt>
+            <dd>Self explainatory</dd>
+        </dl>
+
+            <figure>
+                <img src="img/smol.jpg" alt="yeehaw" title="car" width="275" height="183" loading="lazy">
+                    <figcaption>This car has a 4.0L Flat Six N/A engine</figcaption>
+                </figure>
+           
+
+    </section>
+        
+        </article>
+
+        <hr>
+
+        <article id="contact">
+            <h2>Contact Me</h2>
+            <p>Genuinely do contact me if you have something to say, I'd love to hear. (even if you think the website is abhorent) </p>
+
+            <!-- autofocus isn't necessary here because the contact form is so low on the page, but you have it as an example of how it works-->
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                <p>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required autofocus>
+            </p>
+                <p>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required>
+            </p>
+                <p>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Shhh!" required>
+            </p>
+                <p>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" placeholder="5555555555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{5}" required>
+            </p>
+                <p>
+                <label for="decade">Favourite Decade:</label>
+                <input type="number" name="decade" id="decade" min="1950" max="2024" step="10" value="2000">
+            </p>
+                <p>
+                <label for="coffee">Favourite Coffee:</label>
+                <select name="coffee" id="coffee">
+                    <optgroup label="Hot Drinks">
+                    <option value="whitecoffee">White Coffee</option>
+                    <option value="blackcoffee">Black Coffee</option>
+                    <option value="cappucino">Cappucino</option>
+                </optgroup>
+                    <optgroup label="Cold Drinks">
+                    <option value="icedcoffee">Iced Coffee</option>
+                </optgroup>
+                </select>
+            </p> 
+
+
+           <!--  <p>
+                <label for="coffee">Favourite Coffee:</label>
+                <input type="text" name="coffee" id="coffee" list="coffee-list">
+                <datalist id="coffee-list">
+                    <option value="coffee">
+                    <option value="latte">
+                    <option value="espresso">
+                    <option value="cortado">
+                    <option value="americano">
+                    <option value="other">
+                </datalist>
+            </p>
+ -->
+                <!-- another way to do this where it autofills from options as you type them out-->
+
+
+                <!-- this is commented out as we're trying another way that we can do the same thing-->
+                <!-- Size which defines how many elements will display at once and multiple which allows choice of multiple elements aren't included here, They would be within select-->
+                <!-- Normal input forms with placeholder values, whether they're required or not, whether they can be autocompleted, tags for our HTML and for the server, pattern inforcement and different types of inputs-->
+            
+
+            <!-- Examples of different inputs for forms-->
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>What is your favourite food?</legend>
+            <p>
+                <input type="radio" name="food" id="Dominos" value="Dominos">
+                <label for="Dominos">Dominos</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="Wingstop" value="Wingstop">
+                <label for="Wingstop">Wingstop</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="Subway" value="Subway">
+                <label for="Subway">Subway</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="otherFood" value="otherFood">
+                <label for="otherFood">Other</label>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Do you have pets?</legend>
+            <p>
+                <input type="checkbox" name="pets" id="cat" value="cat">
+                <label for="cat">Cat</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="dog" value="dog">
+                <label for="dog">Dog</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="bird" value="bird">
+                <label for="bird">Bird</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="rodent" value="rodent">
+                <label for="rodent">Rodent</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="otherPet" value="otherPet">
+                <label for="otherPet">Other</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="N/Apet" value="N/Apet">
+                <label for="N/Apet">None :[</label>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Send me a note</legend>
+            <label for="message">Your Message</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+        </fieldset>
+        <br>
+        <!-- <input type="submit" value="">  This can only display what's in the value on the button, but using the one below we can add more elements-->
+        <button type="submit">Submit</button>
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+        <button type="reset">Reset</button>
+            </form>
+        </article>
+
+
+        <hr>
+
+        <section id="links">
+        <h2>Helpful Links</h2>
+        <p>Check out <a href="https://www.youtube.com/watch?v=kUMe1FH4CHE&t=8949s">Free Code Camp's video on HTML!</a></p>
+    </section>
+</main>
+
+       
+<footer>
+    <br>
+        <hr>
+        <p> &lt;&lt;&lt; &copy; <a href="about.html"><strong>Samy Wanas</strong></a> &gt;&gt;&gt;</p>
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+    </footer>
+    </body>
+    
+
+</html>
